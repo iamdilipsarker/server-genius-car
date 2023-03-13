@@ -11,6 +11,12 @@ app.get("/", (req, res) => {
   res.send("genius car server is running");
 });
 
+app.get("/service", (req, res) => {
+  res.send("service");
+});
+
+app.post;
+
 app.listen(port, () => {
   console.log(`Genius car server running on ${port}`);
 });
